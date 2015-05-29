@@ -22,7 +22,7 @@
 | @authors QiuFan
 | @date    2015-05-04 16:08:34
 | @version 0.1
-| @params $len 菱形大小 int
+| @params $len int 菱形大小
 */
 function fn_cli_rhombus($len)
 {
