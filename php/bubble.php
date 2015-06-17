@@ -1,9 +1,4 @@
 <?php
-/**
- * 各种算法 PHP版
- * All kinds of algorithms in PHP
- */
-
 
 /*
 | 4 3 2 8 5 1   (len = 6)
@@ -13,7 +8,7 @@
 | 2 1 3 4 5 8   (4   2次比较
 | 1 2 3 4 5 8   (5   1次比较
 |---------------------------
-| 命令行模式下实现的菱形图像
+| 命令行模式下实现的冒泡排序
 | php.exe(PHP>5.0.0) | cli/php.exe( 4.3.0<PHP<5.0.0)
 |---------------------------
 | @authors QiuFan (hiqiufan.com)
@@ -21,7 +16,9 @@
 | @version 0.1
 | @params $array  array 需要排序的数组
 |
-| Notice:PHP有现成的函数可以实现数组排序
+| Notice:
+| PHP有现成的函数可以实现数组排序
+| sort() ksort() asort() etc.
 |
 */
 function fn_cli_bubble($array){

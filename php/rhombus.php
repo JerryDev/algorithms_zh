@@ -1,9 +1,4 @@
 <?php
-/**
- * 各种算法 PHP版
- * All kinds of algorithms in PHP
- */
-
 
 /*
 |     *
